@@ -16,7 +16,12 @@ public class User {
     private String location;
 
     public User() {
-
+        this.id = 0;
+        this.patientsLikeMeId = 0;
+        this.userName = "empty";
+        this.gender = "empty";
+        this.age = 0;
+        this.location = "empty";
     }
 
     public int getId() {
@@ -81,5 +86,11 @@ public class User {
         int hash = 17;
         hash = 31*hash + id;
         return hash;
+    }
+
+    @Override
+    public String toString() {
+        return "user:{" + id + ", " +
+                userName + "}";
     }
 }

@@ -51,4 +51,10 @@ public class Condition {
         hash = 31*hash + ConditionId;
         return hash;
     }
+
+    @Override
+    public String toString() {
+        return "condition:{" + ConditionId + ", " +
+                ConditionName + "}";
+    }
 }

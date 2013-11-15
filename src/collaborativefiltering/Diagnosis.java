@@ -7,7 +7,7 @@ package collaborativefiltering;
  * Time: 3:17 PM
  * To change this template use File | Settings | File Templates.
  */
-public class Diagnosis {
+public class Diagnosis implements Comparable<Diagnosis> {
     private int userId;
     private Condition condition;
     private boolean isPrimaryCondition;
@@ -15,6 +15,14 @@ public class Diagnosis {
     private Date DiagnosisDate;
 
     public Diagnosis() {
+    }
+
+    public Diagnosis(int userId, Condition condition, boolean primaryCondition, Date firstSymptomDate, Date diagnosisDate) {
+        this.userId = userId;
+        this.condition = condition;
+        isPrimaryCondition = primaryCondition;
+        this.firstSymptomDate = firstSymptomDate;
+        DiagnosisDate = diagnosisDate;
     }
 
     public Condition getCondition() {
@@ -55,5 +63,31 @@ public class Diagnosis {
 
     public void setDiagnosisDate(Date diagnosisDate) {
         DiagnosisDate = diagnosisDate;
+    }
+
+    @Override
+
+    public int compareTo(Diagnosis that) {
+        //first compare the diagnosis dates
+        if (this.DiagnosisDate.isBefore(that.DiagnosisDate))  return -1;
+        else if (this.DiagnosisDate.isAfter(that.DiagnosisDate))  return +1;
+        //if diagnosis dates are equal, compare symptom dates
+        else if (this.firstSymptomDate.isBefore(that.firstSymptomDate)) return -1;
+        else if (this.firstSymptomDate.isAfter(that.firstSymptomDate)) return +1;
+        //if both diagnosis dates and symptom dates are equal, return equal
+        else
+            return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Diagnosis{" +
+                "userId=" + userId +
+                ", conditionid=" + condition.getConditionId() +
+                ", conditionname=" + condition.getConditionName() +
+                ", isPrimaryCondition=" + isPrimaryCondition +
+                ", firstSymptomDate=" + firstSymptomDate +
+                ", DiagnosisDate=" + DiagnosisDate +
+                '}';
     }
 }

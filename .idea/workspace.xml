@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="socialanalysis_toolkit:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" name="Default" comment="" />
     <ignored path="socialanalysis_toolkit.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Prediction.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1381783043911" ignored="false" />
+    <file path="/Prediction.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1382492065218" ignored="false" />
     <file path="/UserBasic.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1380827924652" ignored="false" />
-    <file path="/fragment.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1381782340658" ignored="false" />
-    <file path="/Condition.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1381782601079" ignored="false" />
-    <file path="/Date.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1381778025529" ignored="false" />
-    <file path="/Diagnosis.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1380900953584" ignored="false" />
+    <file path="/fragment.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1384459437797" ignored="false" />
+    <file path="/Condition.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1381867899754" ignored="false" />
+    <file path="/Date.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1382378902898" ignored="false" />
+    <file path="/Diagnosis.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1384451064421" ignored="false" />
     <file path="/UserHistory.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1381780540449" ignored="false" />
-    <file path="/UsersHistory.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1381784110417" ignored="false" />
-    <file path="/PredictionResults.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1381769545320" ignored="false" />
+    <file path="/UsersHistory.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1384450759128" ignored="false" />
+    <file path="/PredictionResults.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1382381368890" ignored="false" />
     <file path="/PredictionResult.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1381769382316" ignored="false" />
-    <file path="/User.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1381783105908" ignored="false" />
+    <file path="/User.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1382387487988" ignored="false" />
+    <file path="/Quick.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1382485090635" ignored="false" />
+    <file path="/Result.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1382713617992" ignored="false" />
+    <file path="/StdOut.java" changelist="0eeb1c2b-b516-4de4-b08e-68056e0d9c53" time="1382472091073" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +73,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -76,33 +83,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Prediction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Prediction.java">
+      <file leaf-file-name="UsersHistory.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/UsersHistory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="56" selection-start="5117" selection-end="5117" vertical-scroll-proportion="0.0">
+            <state line="26" column="31" selection-start="699" selection-end="699" vertical-scroll-proportion="0.6367925">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersHistory.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/UsersHistory.java">
+      <file leaf-file-name="Prediction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Prediction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="56" selection-start="2327" selection-end="2327" vertical-scroll-proportion="2.3582475">
-              <folding>
-                <element signature="e#1437#1448#0" expanded="true" />
-                <element signature="e#1652#1663#0" expanded="true" />
-                <element signature="e#2528#2534#0" expanded="true" />
-                <element signature="e#3137#3143#0" expanded="true" />
-              </folding>
+            <state line="90" column="104" selection-start="3373" selection-end="3373" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/User.java">
+      <file leaf-file-name="Diagnosis.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Diagnosis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="57" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+            <state line="78" column="32" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PredictionResults.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/PredictionResults.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="5" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Condition.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Condition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="12" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Result.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="29" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,17 +147,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/collaborativefiltering/createSimilarity.java" />
-        <option value="$PROJECT_DIR$/src/collaborativefiltering/UserBasic.java" />
-        <option value="$PROJECT_DIR$/src/collaborativefiltering/Diagnosis.java" />
-        <option value="$PROJECT_DIR$/src/collaborativefiltering/UserHistory.java" />
-        <option value="$PROJECT_DIR$/src/PredictionResult.java" />
-        <option value="$PROJECT_DIR$/src/PredictionResults.java" />
+        <option value="$PROJECT_DIR$/src/collaborativefiltering/Quick.java" />
+        <option value="$PROJECT_DIR$/src/collaborativefiltering/utility/Number.java" />
+        <option value="$PROJECT_DIR$/src/collaborativefiltering/utility/MaxPQ.java" />
         <option value="$PROJECT_DIR$/src/collaborativefiltering/Date.java" />
+        <option value="$PROJECT_DIR$/src/collaborativefiltering/PredictionResults.java" />
+        <option value="$PROJECT_DIR$/src/collaborativefiltering/utility/IOOperation.java" />
         <option value="$PROJECT_DIR$/src/collaborativefiltering/Condition.java" />
-        <option value="$PROJECT_DIR$/src/collaborativefiltering/Prediction.java" />
         <option value="$PROJECT_DIR$/src/collaborativefiltering/User.java" />
+        <option value="$PROJECT_DIR$/src/collaborativefiltering/utility/StdOut.java" />
+        <option value="$PROJECT_DIR$/src/collaborativefiltering/utility/Quick.java" />
+        <option value="$PROJECT_DIR$/src/collaborativefiltering/Result.java" />
+        <option value="$PROJECT_DIR$/src/collaborativefiltering/Diagnosis.java" />
         <option value="$PROJECT_DIR$/src/collaborativefiltering/UsersHistory.java" />
+        <option value="$PROJECT_DIR$/src/collaborativefiltering/PredictionTest.java" />
+        <option value="$PROJECT_DIR$/src/PredictionTest.java" />
+        <option value="$PROJECT_DIR$/src/collaborativefiltering/Prediction.java" />
       </list>
     </option>
   </component>
@@ -180,6 +214,10 @@
               <option name="myItemId" value="socialanalysis_toolkit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -204,8 +242,22 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="collaborativefiltering" />
+              <option name="myItemId" value="socialanalysis_toolkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialanalysis_toolkit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,25 +266,41 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mysql-connector-java-5.0.8-bin.jar!/" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="socialanalysis_toolkit" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="collaborativefiltering" />
+      <recent name="collaborativefiltering.utility" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/collaborativefiltering" />
+      <recent name="$PROJECT_DIR$/src/collaborativefiltering/utility" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -274,19 +342,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -312,6 +367,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -352,8 +420,9 @@
       <item index="0" class="java.lang.String" itemvalue="Application.Prediction" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.Prediction" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Prediction" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -387,6 +456,26 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="812" extended-state="0" />
     <editor active="true" />
@@ -394,21 +483,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32803467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39884394" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39855072" sideWeight="0.5400291" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.4599709" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3236994" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32080925" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496361" sideWeight="0.67826086" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.60115606" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32658958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.6719653" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32080925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -478,122 +567,105 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Diagnosis.java">
+    <entry file="jar://$PROJECT_DIR$/lib/stdlib.jar!/StdOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="45" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="19" selection-start="0" selection-end="5711" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/utility/MaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="0" selection-start="4979" selection-end="4979" vertical-scroll-proportion="4.6391754" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/utility/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="268" selection-end="268" vertical-scroll-proportion="0.34793815" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/utility/IOOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="36" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="8" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+        <state line="93" column="31" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="29" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.0">
+        <state line="13" column="93" selection-start="289" selection-end="377" vertical-scroll-proportion="0.023112481">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/createSimilarity.java">
+    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/utility/StdOut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="212" column="22" selection-start="5116" selection-end="5116" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/createSimilarity.java">
+    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/utility/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/createSimilarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/createSimilarity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Diagnosis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="377" selection-end="377" vertical-scroll-proportion="0.022522522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="49" selection-start="2293" selection-end="2293" vertical-scroll-proportion="0.64">
+        <state line="121" column="3" selection-start="3030" selection-end="3030" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Result.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="534" selection-end="534" vertical-scroll-proportion="0.40206185">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="84" column="29" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/PredictionResults.java">
+    <entry file="file://$PROJECT_DIR$/src/PredictionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="291" selection-end="291" vertical-scroll-proportion="0.4201031">
+        <state line="24" column="97" selection-start="705" selection-end="705" vertical-scroll-proportion="-2.2027972">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Condition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="4" selection-start="782" selection-end="1121" vertical-scroll-proportion="0.18814433">
+        <state line="28" column="12" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/User.java">
+    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/PredictionResults.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="57" selection-start="1586" selection-end="1586" vertical-scroll-proportion="0.0">
+        <state line="37" column="5" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/createSimilarity.java">
+    <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Diagnosis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="36" selection-start="6364" selection-end="6364" vertical-scroll-proportion="1.6185567">
+        <state line="78" column="32" selection-start="2243" selection-end="2243" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/Prediction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="56" selection-start="5117" selection-end="5117" vertical-scroll-proportion="0.0">
+        <state line="90" column="104" selection-start="3373" selection-end="3373" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/collaborativefiltering/UsersHistory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="56" selection-start="2327" selection-end="2327" vertical-scroll-proportion="2.3582475">
-          <folding>
-            <element signature="e#1437#1448#0" expanded="true" />
-            <element signature="e#1652#1663#0" expanded="true" />
-            <element signature="e#2528#2534#0" expanded="true" />
-            <element signature="e#3137#3143#0" expanded="true" />
-          </folding>
+        <state line="26" column="31" selection-start="699" selection-end="699" vertical-scroll-proportion="0.6367925">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -603,10 +675,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>socialanalysis_toolkit:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -661,6 +735,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>mysql-connector-java-5.0.8-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

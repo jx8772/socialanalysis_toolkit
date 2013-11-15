@@ -1,6 +1,5 @@
 package collaborativefiltering;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -32,6 +31,30 @@ public class Date implements Comparable<Date> {
 
     }
 
+    public Date(Date d) {
+        this.day = d.day;
+        this.month = d.month;
+        this.year = d.year;
+        this.PatientLikeMeDateValid = d.PatientLikeMeDateValid;
+    }
+
+    public Date(Date d, int offset) {
+        if(offset > 0) {
+            while(offset-- > 0) {
+                d = d.next();
+            }
+        } else if (offset < 0) {
+            while(offset++ < 0) {
+                d = d.previous();
+            }
+        }
+
+        this.day = d.day;
+        this.month = d.month;
+        this.year = d.year;
+        this.PatientLikeMeDateValid = d.PatientLikeMeDateValid;
+    }
+
     public int getMonth() {
         return month;
     }
@@ -61,6 +84,7 @@ public class Date implements Comparable<Date> {
         this.month = month;
         this.day   = day;
         this.year  = year;
+        this.PatientLikeMeDateValid = true;
     }
 
     public static Date parsePatientsLikeMeDate (String date) {
@@ -121,6 +145,18 @@ public class Date implements Comparable<Date> {
         return y % 4 == 0;
     }
 
+    public boolean isAfter(Date b) {
+        return compareTo(b) > 0;
+    }
+
+    /**
+     * Is this date before b?
+     * @return true if this date is before date b; false otherwise
+     */
+    public boolean isBefore(Date b) {
+        return compareTo(b) < 0;
+    }
+
     public int compareTo(Date that) {
         if (this.year  < that.year)  return -1;
         if (this.year  > that.year)  return +1;
@@ -129,5 +165,60 @@ public class Date implements Comparable<Date> {
         if (this.day   < that.day)   return -1;
         if (this.day   > that.day)   return +1;
         return 0;
+    }
+
+    //implemented by Xiang, not fully tested
+    public Date previous() {
+        if (isValid(month, day - 1, year))    return new Date(month, day - 1, year);
+        else if (isValid(month -1, 31, year)) return new Date(month - 1, 31, year);
+        else if (isValid(month -1, 30, year)) return new Date(month - 1, 30, year);
+        else if (isValid(month -1, 29, year)) return new Date(month - 1, 29, year);
+        else if (isValid(month -1, 28, year)) return new Date(month - 1, 28, year);
+        else return new Date(12, 31, year - 1);
+    }
+
+    public Date next() {
+        if (isValid(month, day + 1, year))    return new Date(month, day + 1, year);
+        else if (isValid(month + 1, 1, year)) return new Date(month + 1, 1, year);
+        else                                  return new Date(1, 1, year + 1);
+    }
+
+    //get approximation, needs to be improved later
+    public int getDifference(Date that) {
+        int days = 0;
+        int flag;
+        Date d = new Date();
+        if(this.isAfter(that)) {
+            d = that;
+            while(!d.next().equals(this)) {
+                d = d.next();
+                days++;
+            }
+            return -days;
+        } else if (this.isBefore(that)) {
+            d = this;
+            while(!d.next().equals(that)) {
+                d = d.next();
+                days++;
+            }
+            return days;
+        } else
+            return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Date{" +
+                "month=" + month +
+                ", day=" + day +
+                ", year=" + year +
+                ", PatientLikeMeDateValid=" + PatientLikeMeDateValid +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object x) {
+        Date that = (Date) x;
+        return (this.month == that.month) && (this.day == that.day) && (this.year == that.year);
     }
 }
